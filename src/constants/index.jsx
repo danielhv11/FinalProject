@@ -77,3 +77,147 @@ export const checklistItems = [
       "Start generating clean, renewable energy and enjoy the benefits of solar power.",
   },
 ];
+
+export const pricingOptions1 = [
+  // 8 kw
+  {
+    title: "Cash",
+    price: "$0",
+    features: [
+      "Energy Independence",
+      "Zero Monthly Payments",
+      "20 Tier 1 Panels",
+      "20 microinverters",
+      "30% Federal Tax Credit",
+      "Full Ownership",
+    ],
+  },
+  {
+    title: "Financed",
+    price: "$135",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+  {
+    title: "Lease",
+    price: "$165",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+];
+
+export const pricingOptions2 = [
+  // 10 kw
+  {
+    title: "Cash",
+    price: "$0",
+    features: [
+      "Energy Independence",
+      "Zero Monthly Payments",
+      "25 Tier 1 Panels",
+      "25 microinverters",
+      "30% Federal Tax Credit",
+      "Full Ownership",
+    ],
+  },
+  {
+    title: "Financed",
+    price: "$10",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+  {
+    title: "Lease",
+    price: "$200",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+];
+
+export const pricingOptions3 = [
+  //12 kw
+  {
+    title: "Cash",
+    price: "$0",
+    features: [
+      "Energy Independence",
+      "Zero Monthly Payments",
+      "30 Tier 1 Panels",
+      "30 microinverters",
+      "30% Federal Tax Credit",
+      "Full Ownership",
+    ],
+  },
+  {
+    title: "Financed",
+    price: "$10",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+  {
+    title: "Lease",
+    price: "$200",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+];
+
+export const pricingOptions4 = [
+  //14 kw
+  {
+    title: "Cash",
+    price: "$0",
+    features: [
+      "Energy Independence",
+      "Zero Monthly Payments",
+      "35 Tier 1 Panels",
+      "35 microinverters",
+      "30% Federal Tax Credit",
+      "Full Ownership",
+    ],
+  },
+  {
+    title: "Pro",
+    price: "$10",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+  {
+    title: "Enterprise",
+    price: "$200",
+    features: [
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum dolor sit amet",
+      "lorum ipsum",
+      "lorum ipsum dolor sit amet",
+    ],
+  },
+];

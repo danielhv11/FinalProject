@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import WhyUs from './components/WhyUs';
 import OurProcess from './components/Workflow';
+import Pricing from './components/Pricing';
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
               <div className="max-w-7xl mx-auto pt-20 px-6">
                 <WhyUs />
                 <OurProcess />
+                <Pricing />
               </div>
             </>
           }
