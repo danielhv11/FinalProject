@@ -6,6 +6,14 @@ import { ShieldCheck } from "lucide-react";
 import { Speech } from "lucide-react";
 
 
+import user1 from "../assets/profile-pictures/user1.jpg";
+import user2 from "../assets/profile-pictures/user2.jpg";
+import user3 from "../assets/profile-pictures/user3.jpg";
+import user4 from "../assets/profile-pictures/user4.jpg";
+import user5 from "../assets/profile-pictures/user5.jpg";
+import user6 from "../assets/profile-pictures/user6.jpg";
+
+
 
 
 export const navItems = [
@@ -219,5 +227,44 @@ export const pricingOptions4 = [
       "lorum ipsum",
       "lorum ipsum dolor sit amet",
     ],
+  },
+];
+
+export const testimonials = [
+  {
+    user: "Lorem Ipsum",
+    company: "Dolor Sit Amet Inc.",
+    image: user1,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum vestibulum justo, vel hendrerit nulla pretium eget.",
+  },
+  {
+    user: "Consectetur Adipiscing",
+    company: "Elit Solutions",
+    image: user2,
+    text: "Suspendisse potenti. Curabitur ac libero at purus viverra vehicula id at arcu. Integer scelerisque risus at velit dignissim.",
+  },
+  {
+    user: "Vivamus Vehicula",
+    company: "Malesuada Enterprises",
+    image: user3,
+    text: "Vivamus vehicula risus ut odio tincidunt, a cursus nunc mollis. Nullam sit amet eros non nisl consectetur dictum.",
+  },
+  {
+    user: "Aliquam Tellus",
+    company: "Orci Varius Corp.",
+    image: user4,
+    text: "Aliquam tellus nunc, gravida non ante in, scelerisque malesuada mauris. Donec eget elit ut ligula blandit ultrices.",
+  },
+  {
+    user: "Curabitur Euismod",
+    company: "Vestibulum Eget Co.",
+    image: user5,
+    text: "Curabitur euismod, arcu id ullamcorper fermentum, justo mi bibendum sem, a lacinia magna ex in sapien.",
+  },
+  {
+    user: "Phasellus Volutpat",
+    company: "Arcu Industries",
+    image: user6,
+    text: "Phasellus volutpat arcu nec eros luctus, vitae congue elit venenatis. Fusce et neque id lectus posuere condimentum.",
   },
 ];

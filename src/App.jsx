@@ -5,6 +5,8 @@ import HeroSection from './components/HeroSection';
 import WhyUs from './components/WhyUs';
 import OurProcess from './components/Workflow';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
+
 
 
 const App = () => {
@@ -21,6 +23,7 @@ const App = () => {
                 <WhyUs />
                 <OurProcess />
                 <Pricing />
+                <Testimonials />
               </div>
             </>
           }
