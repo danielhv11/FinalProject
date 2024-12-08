@@ -1,23 +1,55 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CheckCircle2 } from "lucide-react";
-import { pricingOptions1, pricingOptions2, pricingOptions3, pricingOptions4 } from "../constants";
+import axios from "axios"; // Import axios for making the API request
 
 const Pricing = () => {
   const [selectedOptions, setSelectedOptions] = useState("options1");
+  const [pricingData, setPricingData] = useState(null); // State to hold pricing data
+  const [loading, setLoading] = useState(true); // Loading state
+  const [error, setError] = useState(null); // Error state
 
+  // Fetch pricing data from backend
+  useEffect(() => {
+    const fetchPricing = async () => {
+      try {
+        const response = await axios.get("http://localhost:5000/pricing"); // Backend URL
+        setPricingData(response.data); // Set pricing data
+        setLoading(false); // Set loading to false
+      } catch (err) {
+        console.error("Error fetching pricing data:", err);
+        setError("Failed to load pricing data");
+        setLoading(false); // Set loading to false
+      }
+    };
+
+    fetchPricing();
+  }, []); // Empty dependency array means this will run once when the component mounts
+
+  // Handle system size selection
   const handleSelectChange = (event) => {
     setSelectedOptions(event.target.value);
   };
 
+  // Check if pricing data is loaded
+  if (loading) {
+    return <div>Loading pricing data...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  // Get pricing options based on selected system size
   const getPricingOptions = () => {
+    if (!pricingData) return [];
     if (selectedOptions === "options1") {
-      return pricingOptions1;
+      return pricingData.options1;
     } else if (selectedOptions === "options2") {
-      return pricingOptions2;
+      return pricingData.options2;
     } else if (selectedOptions === "options3") {
-      return pricingOptions3;
+      return pricingData.options3;
     } else if (selectedOptions === "options4") {
-      return pricingOptions4;
+      return pricingData.options4;
     }
   };
 
