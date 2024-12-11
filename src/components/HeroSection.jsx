@@ -18,7 +18,7 @@ const Main = () => {
                 One step toward a brighter future—make the switch to solar now.
             </p>
             <div className='flex justify-center my-10'>
-                <a href='#' className='bg-gradient-to-r from-red-500 to-red-800 text-white px-6 py-3 mx-3 rounded-md'>
+                <a href='#contactus' className='bg-gradient-to-r from-red-500 to-red-800 text-white px-6 py-3 mx-3 rounded-md'>
                     Get a Quote
                 </a>
             </div>   

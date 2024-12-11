@@ -37,9 +37,6 @@ const Navbar = () => {
             <a href="#contactus" className="py-2 px-3 border rounded-md">
               Contact Us
             </a>
-            <a href="#" className="bg-gradient-to-r from-red-500 to-red-800 py-2 px-3 rounded-md">
-              Request a Quote
-            </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
@@ -59,9 +56,6 @@ const Navbar = () => {
             <div className="flex space-x-6">
               <a href="#contactus" className="py-2 px-3 border rounded-md">
                 Contact Us
-              </a>
-              <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-red-500 to-red-800">
-                Request a Quote
               </a>
             </div>
           </div>

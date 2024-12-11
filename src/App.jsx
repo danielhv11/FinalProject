@@ -8,6 +8,7 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import ThankYou from './components/Thankyou'; // Import the ThankYou component
+import Checkout from './components/Checkout';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           }
         />
         <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Router>
   );

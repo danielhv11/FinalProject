@@ -6,12 +6,8 @@ import { ShieldCheck } from "lucide-react";
 import { Speech } from "lucide-react";
 
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
+import profilepic from "../assets/profile-pictures/profile_icon.png";
+
 
 
 
@@ -88,39 +84,33 @@ export const checklistItems = [
 
 export const testimonials = [
   {
-    user: "Lorem Ipsum",
-    company: "Dolor Sit Amet Inc.",
-    image: user1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum vestibulum justo, vel hendrerit nulla pretium eget.",
+    user: "Tita Garcia",
+    image: profilepic,
+    text: "My solar consultant was very helpful, he has been stopping by at least once every other year to make sure we are happy. Our system has been working great for the past 5 years. He’s very friendly and helpful, we recommend this company to anyone looking for solar energy.",
   },
   {
-    user: "Consectetur Adipiscing",
-    company: "Elit Solutions",
-    image: user2,
-    text: "Suspendisse potenti. Curabitur ac libero at purus viverra vehicula id at arcu. Integer scelerisque risus at velit dignissim.",
+    user: "Daniela Gallegos",
+    image: profilepic,
+    text: "Our solar consultant was very easy to work with, he stops by our home every once in a while to make sure everything is ok. We got a $1000 check from Avetec to pay for our first several months plus our electric company cancellation fees. We also got most of our federal tax credit of $10,000+ during our first tax season of having our panels.",
   },
   {
-    user: "Vivamus Vehicula",
-    company: "Malesuada Enterprises",
-    image: user3,
-    text: "Vivamus vehicula risus ut odio tincidunt, a cursus nunc mollis. Nullam sit amet eros non nisl consectetur dictum.",
+    user: "Joshua Kennedy",
+    image: profilepic,
+    text: "I have had 43 solar panels now for about two years. My average bill is usually a credit of $60. And in the summer it’s usually around $30. I received a check for $1,300 when I first signed up for solar panels. My consultant was very helpful and knowledgeable on helping me deciding the amount of solar panels to efficiently cover my light bill cost. It exceeded my expectations. I will highly recommend.",
   },
   {
-    user: "Aliquam Tellus",
-    company: "Orci Varius Corp.",
-    image: user4,
-    text: "Aliquam tellus nunc, gravida non ante in, scelerisque malesuada mauris. Donec eget elit ut ligula blandit ultrices.",
+    user: "Caramelo Simental",
+    image: profilepic,
+    text: "I bought my solar panels two years ago and have been extremely happy with avetecsolar service. They help me with every step from beginning to end. In two years we haven’t paid anything to Reliant Energy.",
   },
   {
-    user: "Curabitur Euismod",
-    company: "Vestibulum Eget Co.",
-    image: user5,
-    text: "Curabitur euismod, arcu id ullamcorper fermentum, justo mi bibendum sem, a lacinia magna ex in sapien.",
+    user: "Andrea T",
+    image: profilepic,
+    text: "My sales representative was great! He had good communication, very friendly, had a smooth service, and most of all the referral money that I received for referring my sister. Thank you again Avetec Solar",
   },
   {
-    user: "Phasellus Volutpat",
-    company: "Arcu Industries",
-    image: user6,
-    text: "Phasellus volutpat arcu nec eros luctus, vitae congue elit venenatis. Fusce et neque id lectus posuere condimentum.",
+    user: "Patricia Austin",
+    image: profilepic,
+    text: "Getting solar is the best thing to do, belive me! It will save you lots and lots of money. Is very easy working with this company, we compared other companies and avetec  gave us the best price and service!!",
   },
 ];
